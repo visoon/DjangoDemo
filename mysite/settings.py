@@ -25,7 +25,9 @@ SECRET_KEY = '9o04@$gia4*k4s_)-n_bkh-#a1bicq)_y5g0u5urnwuhj!x4o5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vison.pythonanywhere.com']
+ALLOWED_HOSTS = ['vison.pythonanywhere.com',
+                 '127.0.0.1',
+                 ]
 
 
 # Application definition
